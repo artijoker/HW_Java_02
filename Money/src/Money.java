@@ -10,10 +10,6 @@ public class Money {
         return _pennies;
     }
 
-    public int GetAllPennies() {
-        return _pennies;
-    }
-
     public Money(int pennies) {
 
         _floor = pennies / 100;
